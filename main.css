@@ -1,0 +1,148 @@
+/*/////////////////////////////////////
+/                Général              /
+/////////////////////////////////////*/
+
+a:hover {
+    color: #CDDC39;
+    text-decoration: none;
+}
+
+a {
+    color: lightgreen;
+}
+
+h1 {
+    color: green;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-left: 15px;
+    color: #4CAF50;
+}
+
+p {
+    margin-left: 15px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+/*/////////////////////////////////////
+/               Header                /
+/////////////////////////////////////*/
+
+header {
+    background-color: #388E3C;
+    border: 20px solid darkgreen;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header nav ul li {
+    list-style: none;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.menu-accueil {
+    color: #CDDC39;
+}
+
+.img-en-tete {
+    margin-top: 20px;
+}
+
+/*/////////////////////////////////////
+/                Main                 /
+/////////////////////////////////////*/
+
+main ul {
+    list-style-image: url("balle-golf.png")
+}
+
+.legende {
+    text-align: center;
+    color: white;
+}
+
+.image-cabane {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabane {
+    background-color: #CBE6C9;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    display: block;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+}
+
+.liste-1 {
+
+}
+
+main table thead, main table tfoot {
+    background-color: #C8E6C9;
+}
+
+main table thead {
+    font-weight: bold;
+}
+
+main table tbody {
+    border: #C8E6C9;
+    border: 1px;
+    margin-inside: 4px 6px 4px 6px;
+    text-align: right;
+}
+
+main p {
+    font-size: 80%;
+    margin-inside: 0px 0px 5px 0px;
+}
+
+main table tfoot {
+    font-size: 80%;
+    text-align: right;
+}
+
+.colone-1 {
+    text-align: left;
+}
+
+/*/////////////////////////////////////
+/                Body                 /
+/////////////////////////////////////*/
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    margin-left: 10px;
+    color: black;
+}
+
+/*/////////////////////////////////////
+/                Footer               /
+/////////////////////////////////////*/
+
+footer {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.liste {
+    margin-bottom: 3px;
+}
