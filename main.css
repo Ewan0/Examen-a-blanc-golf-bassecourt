@@ -146,3 +146,21 @@ footer {
 .liste {
     margin-bottom: 3px;
 }
+
+.footer p {
+    z-index: 2;
+    position: absolute;
+    margin-bottom: 5%;
+    margin-right: 50%;
+}
+
+.footer img {
+    height: 10%;
+    position: absolute;
+    margin-bottom: 0%;
+    width: 100%;
+    left: 0%;
+    z-index: 1;
+    height: 10%;
+    width: 100%;
+}
